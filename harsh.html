@@ -3,12 +3,17 @@
 <Head>
 <title>Vacanza</title>
 <style>
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #E9E9E9;
+    }
 #bg{
      
     background-image:url("photos/background.png");
     height:600px;
     
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     
     }
@@ -47,19 +52,72 @@
   margin-top:12px;
         margin-left: 440px;
 }
+ 
+
+    section
+    {
+        background:black;
+       width:1200px;
+        height: 300px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 30px;
+        margin-top:30px;
+        border:3px solid silver;
+        box-shadow:10px 10px 5px 10px darkgray;
+        display:flex;
+        
+        
+        
+         
+        
+    }
+    .content
+    {
+        height:100%;
+        width:50%;
+        background: white;
+        
+        box-sizing: border-box;
+        
+        
+        
+        
+    }
+    .image{
+        height:100%;
+        width: 50% ;
+        background : url("photos/vintage.jpg");
+        box-sizing: border-box;
+    border-bottom: 300px solid transparent;
+        border-left: 100px solid white;
+        
+        
+        
+        
+
     
+    }
+        
     </style>    
 <body>
     <div id="bg">
     <img  class="logo" alt="logo "src="photos/logo.png"> 
         
       <img src="photos/vac.svg" alt="vancanza" width="540" class="center" >
-    <dv class="wrapper">
+    <div class="wrapper">
         <button class="j " >REGISTER</button>
         <button class="j ">START QUIZ</button>
-     </dv>   
+     </div>   
     </div>
-    
-    
+    <div >
+    <section >
+     <div class="content"></div>
+        <div class="image">
+        
+            
+        </div>
+    </section>
+    </div>
     </body>
     </Head></HTML>
