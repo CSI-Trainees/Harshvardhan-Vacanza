@@ -13,10 +13,9 @@ body{
         margin-left: 20px;}
 #bg{
      
-    background-image:url("photos/background.png");
-    height:600px;
-    
-    background-size:cover;
+    background-image:url("photos/background.jpeg");
+     height:600px;
+     background-size:cover;
     background-repeat: no-repeat;
     
     }
@@ -58,60 +57,68 @@ body{
  
 
     section
-    {
-        background:black;
+    { 
+        background:white;
        width:1200px;
-        height: 300px;
+        height: 310px;
+        margin-top: 20px;
         margin-left: 70px;
-        margin-right: 70px;
-        margin-bottom: 30px;
-        margin-top:30px;
+       margin-bottom: 30px;
+        
         border:3px solid silver;
         box-shadow:10px 10px 5px 10px darkgray;
         display:flex;
-        
-        
-        
-         
-        
     }
+   
     .content
-    {
+    { 
         height:100%;
-        width:50%;
+        width:70%;
         background: white;
+    } 
+    .rigimg{
+        width:30%;
+            height:100%;
+            background:white;
+    }
+    .img1{
         
-        box-sizing: border-box;
-        
-        
-        
+   
+        float:right;
+    clip-path: polygon(45% 0, 100% 0, 100% 100%, 0% 100%);
+         
+            }
+    p{
+    padding: 10px;
+        margin:10px;
+        font-size:large;
+        color:gray;
+        line-height:140%;
         
     }
-    .image{
-        height:100%;
-        width: 50% ;
-        background : url("photos/vintage.jpg");
-        box-sizing: border-box;
-    border-bottom: 300px solid transparent;
-        border-left: 100px solid white;
-        
-        
-        
-        
-
+    h3{
+        font-size:25px;
+        padding:5px;
+        margin:10px;
+    }
+  button.para{
+      padding:10px;
+      border:2px solid green;
+      margin:0px 20px;
+background:white;
+      color: green;
+      font-size:20px;
+    }
     
-    }
-        
     </style>    
 <body>
     
 
-				
+	 		
 			
-
+    <div>
     <div id="bg">
-      <div> <a href="https://csiakgec.in/index" class="itr">CSI</a>
-          </div> 
+    
     <img  class="logo" alt="logo "src="photos/logo.png"> 
         
       <img src="photos/vac.svg" alt="vancanza" width="540" class="center" >
@@ -120,15 +127,28 @@ body{
         <button class="j ">START QUIZ</button>
      </div>   
     </div>
+    </div>
     
-    <div >
+    
+    
     <section >
-     <div class="content"></div>
-        <div class="image">
-        
-            
+     <div class="content">
+         <h3 >ROUND 1</h3>
+                        <hr style="width:96%">
+                        <p>Round 1 comprises of 4 domains from which participants have to select at least 2 domains and
+                            can
+                            choose maximum of 4 domains for more points. The more domain you opt for, the more you
+                            score.
+                        </p>
+         <h3 >The four domains are:</h3>
+                            <p>Vintage Photography | Leaf Collage | Origami Art | Face Mask Art</p>
+         <button class="para">RULES</button>
+        </div>
+        <div class="rigimg">
+                  <img src="photos/vintage.jpg" height="100%" width="100%" class="img1">
+
         </div>
     </section>
-    </div>
+    
     </body>
     </Head></HTML>
